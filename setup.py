@@ -4,9 +4,6 @@ use_setuptools()
 
 #python setup.py sdist upload
 
-from setuptools import setup
-from stratum import version
-
 setup(name='stratum',
       version=version.VERSION,
       description='Stratum server implementation based on Twisted',
